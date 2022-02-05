@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:text="@string/enregistrerAnimal" />
+        <EditText
+            android:id="@+id/animalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:hint="@string/nomAnimal" />
+        <EditText
+            android:id="@+id/descriptionAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:hint="@string/descriptionAnimal" />
+
+        <TextView
+            android:id="@+id/txtVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/categorie"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroupCategorie">
+
+            <RadioButton
+                android:id="@+id/radioChien"
+                android:textSize="15sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chien"
+
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/radioChat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chat"
+
+                android:checked="false"
+
+                android:textSize="15sp" />
+            <RadioButton
+                android:id="@+id/radioAutres"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/autres"
+                android:checked="false"
+                android:textSize="15sp" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/idEnregistreranimal"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/enregistrerAnimal">
+        </Button>
+
+        <Button
+            android:id="@+id/idretour"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:text="retour"></Button>
+    </LinearLayout>
+</RelativeLayout>

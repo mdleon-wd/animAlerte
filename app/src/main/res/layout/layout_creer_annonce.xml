@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--  <ImageView
+              android:id="@+id/icon"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginLeft="100dp"
+              android:src="@drawable/logo" />-->
+
+        <TextView
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:text="Ajouter Annonce" />
+        <EditText
+            android:id="@+id/idEditTextTitreAnnonce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:hint="@string/titreAnnonce" />
+        <EditText
+            android:id="@+id/idTextInputDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:hint="@string/descriptionAnnonce" />
+        <EditText
+            android:id="@+id/idEditTextVille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:hint="@string/ville" />
+
+        <EditText
+            android:id="@+id/idEditUtilisateur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:hint="@string/nomUtilisateur" />
+
+        <TextView
+            android:id="@+id/txtVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/typeAnnonce"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/idTypeAnnonce">
+
+            <RadioButton
+                android:id="@+id/radioPerdu"
+                android:textSize="15sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/perdu"
+
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/radioTrouve"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trouve"
+                android:checked="false"
+                android:textSize="15sp" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/idEnregtrerAnnonce"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/creerAnnonce">
+        </Button>
+
+        <Button
+            android:id="@+id/idretour"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:text="retour"></Button>
+    </LinearLayout>
+</RelativeLayout>

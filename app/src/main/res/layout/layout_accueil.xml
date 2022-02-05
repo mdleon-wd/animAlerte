@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/idcreerannonce"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/creerAnnonce">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/idAjouterAnimal"
+                android:text="@string/ajouterAnimal" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:outlineAmbientShadowColor="@color/red"
+            android:textStyle="bold"
+            android:id="@+id/idlistview"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

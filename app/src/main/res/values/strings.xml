@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AnimAlerte</string>
+    <string name="titreFenetreAjouterAnimal">Ajouter Animal</string>
+    <string name="titreFenetreInscriptionUser">Inscription Nouveau Utilisateur</string>
+    <string name="titreFenetreAccueil">Accueil</string>
+    <string name="titreFenetreAnnonce">Creation Annonce</string>
+    <string name="titreFenetredetailAnnonce">Detail Annonce</string>
+    <string name="nomUtilisateur">Nom d\'utilisateur</string>
+    <string name="motDePasse">Mot de passe</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="courriel">Courriel</string>
+    <string name="telephone">Téléphone</string>
+    <string name="enregistre">S\'enregistrer</string>
+    <string name="facebook">FaceBook</string>a
+    <string name="enregistrerAnimal">Enregistrer Animal</string>
+    <string name="nomAnimal">Nom Animal</string>
+    <string name="descriptionAnimal">Description Animal</string>
+    <string name="categorie">Catégorie</string>
+    <string name="photoAnimal">Photo</string>
+    <string name="connection">Se Connecter</string>
+    <string name="creerAnnonce">Créer Annonce</string>
+    <string name="titreAnnonce">Titre de l\'annonce</string>
+    <string name="typeAnnonce">Type d\'Annonce</string>
+    <string name="chien">Chien</string>
+    <string name="chat">Chat</string>
+    <string name="autres">Autres</string>
+    <string name="afficher">Afficher</string>
+    <string name="animalPerdu">Animal Perdu</string>
+    <string name="animalTrouve">Animal Trouvé</string>
+    <string name="choisirAnimal">Choisir l\'Animal</string>
+    <string name="perdu">Perdu</string>
+    <string name="trouve">Trouvé</string>
+    <string name="date">Date</string>
+    <string name="ajouterAnimal">Ajouter Animal</string>
+    <string name="detailAnnonce">Détail Annonce</string>
+    <string name="ville">Ville</string>
+    <string name="dateCreation">Date Création</string>
+    <string name="retour">Retour</string>
+    <string name="vous_n_avez_pas_un_compte">Vous n\'avez pas un compte?</string>
+    <string name="enregistrezVous">Enregistrez\nvous</string>
+    <string name="hello">Hello</string>
+    <string name="descriptionAnnonce">Description</string>
+    <string-array name="choixAnimal">
+        <item>Chien</item>
+        <item>Chat</item>
+        <item>Autre</item>
+    </string-array>
+</resources>
